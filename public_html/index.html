@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- Responsive HTML / CSS / JS Contact Form
+     Done by Edward
+     Username = "Edward"
+     Password = "1234"
+     ENJOY!!! -->
+<html>
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Form</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="js/script.js"></script>
+<!--<script src="js/jquery-1.4.2.js"></script>-->
+</head>
+<body>
+    <form id="1" name="contact-form" action="PHP/index.php" target="_BLANK" method="POST">
+	<header id="header">
+	<h1 class="header">Contact Form</h1>
+    </header>
+    <center><span class="lab">
+     <label>Name:</label>
+     </span></center>
+     <input type="text" id="names" name="name" class="input" placeholder="Enter your name:" onchange="change();" value="" required>
+
+     <center><span class="error" id="name-error">*Please enter a name</span></center>
+
+     <center><span class="lab">
+     <label>Email:</label>
+     </span></center>
+
+     <input type="email" id="address" name="email" class="input" onchange="validateEmail();" placeholder="Input your Email:" value="" required><br>
+
+     <center><span class="error" id="mail-error">*Invalid email format</span></center>
+
+     <center><span class="lab">
+     <label>Message:</label>
+     </span></center>
+
+     <textarea name="message" id="message" class="textarea" placeholder="Type your say here..." required></textarea>
+
+     <center><span class="error" id="text-error">*Please type something</span></center>
+
+     <label>AntiSpam</label>
+
+     <p>What is 2 + 2?</p>
+
+     <center><input type="number" id="answer" name="answer" placeholder="Answer" value="" oninput="maxlength();" required></center><br>
+
+     <center><button type="submit" name="submit" id="submit" onclick="submitDetails();">submit</button></center>
+    </form>
+
+     <noscript>Please enable scripts in your browser or update it to the latest version</noscript>
+     </body>
+</html>

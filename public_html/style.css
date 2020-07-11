@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 11, 2020, 12:47:45 AM
+    Author     : Edward
+*/
+
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #fff;
+    opacity: 1;
+} 
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #00ff00; 
+} 
+
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #00ff00; 
+} 
+
+     body, html {
+      	  width: 100%;
+      	  height: auto;
+      	  margin: 0px 0px 0px 0px;
+      	  background: #000;
+      	  background-color: #000;
+      	  color: #fff;
+      	  text-align: center;
+      	  display: block;
+	  background:linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url(uploads/blackpanther01.jpg);
+      	  /*background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSJoR0nHgWTKOearA12OLirBGGbiIwb_gP1sIkbfw7DRw0A7PUB");*/
+      	  /*background-repeat: no-repeat;*/
+          background-size: cover;
+          background-position: center;
+      }
+
+      .header {
+          position: relative;
+      	  color: white;
+      	  opacity: 0.9;
+      	  font-size: 25pt;
+      }
+      label {
+      	    color: yellow;
+            font-size: 20pt;
+            position: relative;
+      }
+
+      .input {
+            position: relative;
+            width: 80%;
+            height: 25px;
+            border-radius: 5px;
+            background-color: royalblue;
+            opacity: 0.8;
+            color: whitesmoke;
+            border: none;
+	    
+      }
+
+      .textarea {
+            position: relative;
+            width: 80%;
+            height: 130px;
+            border-radius: 5px;
+            /*background: url("https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2018/02/poster-p-1-black-panther-perception.jpg");*/
+            /*background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;*/
+            background-color: royalblue;
+            opacity: 0.8;
+            color: white;
+            border: none;
+      }
+
+      p {
+            font-size: 20px;
+            color: white;
+            position: relative;
+      }
+
+      #answer {
+            position: relative;
+            display: block;
+            border: none;
+            width: 20%;
+            height: 25px;
+            border-radius: 5px;
+            text-align: center;
+            background-color: royalblue;
+            opacity: 0.6;
+      }
+      
+      p::before {
+      	content: "[";
+      }
+      p::after {
+      	content: "]";
+      }
+
+      button {
+            position: relative;
+            border-radius: 5px;
+            border: none;
+            background-color: #1c1c1c;
+            padding: 5px 10px 5px 10px;
+            font-size: 15pt;
+            color: white;
+            cursor: pointer;
+            display: block;
+      }
+   
+      .lab {
+      	position: relative;
+      	border: none;
+      	border-radius: 5px;
+      	width: 80%;
+      	display: block;
+      	text-align: left;
+      }
+      .error {
+      	border: none;
+      	display: block;
+      	text-align: left;
+      	border-radius: 5px;
+      	width: 80%;
+      	position: relative;
+      	color: red;
+      	visibility: hidden;
+      }
+      #1 {
+	   transition: all 5s ease-in-out;
+	   -webkit-transition: all 5s ease-in-out;
+	   -moz-transition: all 5s ease-in-out;
+	   -o-transition: all 5s ease-in-out;
+	   -ms-transition: all 5s ease-in-out;
+      }
