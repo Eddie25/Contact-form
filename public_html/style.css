@@ -30,7 +30,7 @@ and open the template in the editor.
       	  color: #fff;
       	  text-align: center;
       	  display: block;
-	  background:linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url(uploads/blackpanther01.jpg);
+	  background:linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url(https://github.com/Eddie25/Contact-form/blob/master/public_html/uploads/blackpanther01.jpg);
       	  /*background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSJoR0nHgWTKOearA12OLirBGGbiIwb_gP1sIkbfw7DRw0A7PUB");*/
       	  /*background-repeat: no-repeat;*/
           background-size: cover;
