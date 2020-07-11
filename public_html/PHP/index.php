@@ -22,6 +22,6 @@ $headers = "Reply_To : $visitor_email \r \n";
 
 mail($to, $email_subject, $email_body, $headers);
 
-header("Location: index.html");
+header("Location: https://github.com/Eddie25/Contact-form/blob/master/public_html/index.html");
 
 ?>
